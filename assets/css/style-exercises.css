@@ -1,0 +1,361 @@
+.uber {
+  display: inline-block;
+  margin: 20px;
+  color: white;
+  background-color: black;
+  font-family: arial;
+  font-size: 14px;
+  padding: 15px 20px;
+  opacity: 1;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.uber:hover {
+  opacity: 0.8;
+}
+
+.amazon {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border: none;
+  border-radius: 25px;
+  font-size: 20px;
+  font-family: arial;
+  padding: 12px;
+  width: 200px;
+  margin: 20px;
+  display: inline-block;
+  cursor: pointer;
+  transition: 0.15s;
+  opacity: 1;
+}
+
+.amazon:hover {
+  background-color: rgb(231, 178, 33);
+}
+
+.amazon:active {
+  opacity: 0.4;
+}
+
+.github {
+  background-color: rgb(1, 150, 1);
+  color: white;
+  font-family: arial;
+  font-weight: 700;
+  font-size: 20px;
+  display: inline-block;
+  margin: 20px;
+  border: none;
+  border-radius: 10px;
+  padding: 14px 30px;
+  cursor: pointer;
+}
+
+.github:hover {
+  box-shadow: 0 2px 5px rgb(190, 190, 190);
+}
+
+.download {
+  display: inline-block;
+  margin: 20px;
+  background-color: white;
+  color: grey;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 20px 40px;
+  font-size: 20px;
+  font-style: bold;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.download:hover {
+  color: white;
+  background-color: grey;
+}
+
+.save {
+  display: inline-block;
+  cursor: pointer;
+  background-color: white;
+  color: rgb(71, 128, 212);
+  margin: 20px;
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+  font-weight: 570;
+  border: 2px solid;
+  border-radius: 25px;
+}
+
+.save:hover {
+  border-width: 3px;
+  background-color: rgba(71, 127, 212, 0.089);
+}
+
+.pagintaion {
+  display: inline-block;
+}
+
+.pagination a {
+  font-size: 20px;
+  padding: 10px 12px;
+  color: black;
+  text-decoration: none;
+  font-family: arial;
+  transition: 0.2s;
+}
+
+.pagination a:hover {
+  background-color: grey;
+  color: white;
+}
+
+.pagination a:active {
+  background-color: green;
+  color: white;
+}
+
+.stretch {
+  background-color: purple;
+  color: white;
+  font-size: 20px;
+  margin: 50px;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 1s;
+  scale: 1;
+}
+
+.stretch:hover {
+  padding: 18px 36px;
+  border-radius: 4px;
+  letter-spacing: 3px;
+  transform: scale(1.2);
+}
+
+.dimension {
+  margin: 20px;
+  display: inline-block;
+  color: rgb(173, 16, 16);
+  background-color: rgb(131, 201, 224);
+  border: none;
+  padding: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  box-shadow: 3px 3px 6px rgb(114, 114, 114);
+  cursor: pointer;
+}
+
+.dimension:active {
+  margin-left: 15px;
+  margin-top: 15px;
+  box-shadow: none;
+}
+
+.three {
+  background-color: rgb(185, 155, 255);
+  color: rgb(191, 51, 196);
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 8px 15px;
+  margin: 10px 15px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.three-buttons {
+  margin: 15px;
+  background-color: paleturquoise;
+  height: 100px;
+  width: 370px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px rgb(233, 48, 140);
+}
+.three:hover {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.tweet-div {
+  font-family: arial;
+  font-size: 18px;
+  margin: 15px;
+}
+
+.tweet-header {
+  margin-bottom: 5px;
+}
+
+.span-one {
+  font-weight: bold;
+}
+.span-two {
+  color: grey;
+}
+
+.tweet {
+  line-height: 25px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width: 600px;
+}
+.span-three {
+  color: rgb(122, 184, 255);
+}
+
+.simple-input {
+  margin-top: 30px;
+  width: 400px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-size: 15px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 1px 1px 5px rgb(124, 124, 124);
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.linkedin-signup {
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.linkedin-signup p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: arial;
+}
+.email {
+  color: grey;
+  font-size: 16px;
+}
+.input-two {
+  border-radius: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 400px;
+  border: 2px solid grey;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.info {
+  color: grey;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.agree-join {
+  width: 400px;
+  background-color: rgb(0, 110, 255);
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+}
+.tweeter {
+  display: flex;
+  margin: 30px 60px;
+  font-family: arial;
+}
+.cat {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.text-box {
+  color: grey;
+  border: none;
+  font-size: 18px;
+  width: 300px;
+  vertical-align: middle;
+}
+.tweeter-button {
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(44, 139, 248);
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.two-inputs {
+  display: block;
+  margin: 7px 20px;
+  width: 200px;
+}
+
+.customer-support {
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 15px;
+}
+.google-logo {
+  width: 200px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 150px;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+.google-search {
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0 1px 6px rgb(177, 177, 177);
+  font-size: 16px;
+  width: 500px;
+  padding: 10px 16px;
+  margin-bottom: 60px;
+}
+
+.signup-form {
+  margin: 30px;
+}
+.form-names {
+  border-radius: 8px;
+  border: 1px solid grey;
+  padding: 12px 16px;
+  font-size: 16px;
+  margin-bottom: 12px;
+  width: 148px;
+}
+
+.form-email {
+  display: block;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  border: 1px solid grey;
+  padding: 10px 15px;
+  font-size: 15px;
+  width: 300px;
+}
